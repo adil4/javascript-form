@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+
+</head>
+<body>
+
+
+<div class="container-fluid">
+    <div class="jumbotron">
+        <div class="container">
+            <h2 class="text-center "><a href="#" class="primary">FORM TODO</a> </TODOa></h2>
+            <form >
+                <div class="form-group col-lg-6">
+                    <label >Name :</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group col-lg-6">
+                    <label for="email">LastName:</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                </div>
+                <div class="form-group col-lg-6">
+                    <label>FatherName:</label>
+                    <input type="text" class="form-control" id="fatherName" placeholder="Father Name">
+                </div>
+                <div class="form-group col-lg-6">
+                    <label >Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email Adress" required>
+                </div>
+                <div class="form-group col-lg-6">
+                    <label >Number :</label>
+                    <input type="number" class="form-control" id="num" placeholder="Mobile Number">
+                </div>
+                <div class="form-group col-lg-6">
+                    <label >Adress:</label>
+                    <input type="text" class="form-control" id="address" placeholder="Address">
+                </div>
+            </form>
+            <div class="col-lg-12 text-center">
+                <p class="btn btn-primary btn-md text center" onclick="todoapp()">Submit</p>
+            </div>
+
+
+        </div>
+            <!--<button class="btn btn-primary btn-lg" onclick="adil()">Submit</button>-->
+
+    </div>
+
+    <div class="container">
+    <table class="table table-striped" id="tabel">
+        <thead>
+        <tr>
+            <th id="one" >Firstname</th>
+            <th >Lastname</th>
+            <th >Fathername</th>
+            <th >Email</th>
+            <th >Number</th>
+            <th >Adress</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td id="id1"></td>
+            <td id="id2"></td>
+            <td id="id3"></td>
+            <td id="id4"></td>
+            <td id="id5"></td>
+            <td id="id6"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<script
+        src="https://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+
+<script src="form.js"></script>
+
+</body>
+</html>
