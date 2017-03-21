@@ -9,19 +9,21 @@ function todoapp(){
    var Number = document.getElementById("num").value;
    var Address = document.getElementById("address").value;
 
-    //document.getElementById("name").value='';
-    //document.getElementById("lastName").value='';
-    //document.getElementById("fatherName").value='';
-    //document.getElementById("email").value='';
-    //document.getElementById("num").value='';
-    //document.getElementById("address").value='';
+    document.getElementById("name").value='';
+    document.getElementById("lastName").value='';
+    document.getElementById("fatherName").value='';
+    document.getElementById("email").value='';
+    document.getElementById("num").value='';
+    document.getElementById("address").value='';
 
 
-   var obj = { Name: name,lastName: lastName,faherName:fatherName, Email: email, Mobile: num,Address:Address };
+   var obj = { Name: name,lastName: lastName,faherName: fatherName, Email: email, Mobile: num,Address:Address };
+
     if(name == "" ||lastName == "" ||fatherName == "" ||email == "" ||num == "" || Address == ""){
         alert(" All Field is required");
         return "Field is required";
     }
+
 arr.push(obj);
     console.log(arr);
 
